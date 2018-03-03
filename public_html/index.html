@@ -14,7 +14,6 @@ and open the template in the editor.
         
     </head>
     <body class="bg-dark text-white">
-        
         <!-- Menu (navbar Bootstrap) -->
         
         <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
@@ -43,6 +42,7 @@ and open the template in the editor.
         </div>
       </nav>
 
+     <div class="container" align="center">
         <!-- Home -->
         <h1 align="center" class="text-danger">Açougue Faca Cega</h1>
         
@@ -52,29 +52,35 @@ and open the template in the editor.
         
         <h2 align="center" class="text-danger" id="institucional">Institucional</h2>
         
-        <p align="left">&nbsp;&nbsp;Fundado em 1978 por um grupo de amigos, o açougue Faca Cega consolidou-se no mercado oferecendo os melhores
-            cortes de carne do mercado, prezando sempre o bom atendimento e excelente custo benefício.</p>
-        <p align="left">&nbsp;&nbsp;Sediada atualmente no bairro do Limoeiro, nossa missão é fornecer aos nossos clientes carnes com qualidade 
-            diferenciada, proporcionando a todos momentos inesquecíveis à mesa. </p>
-        
-        <ul class="slider">
-            <li>
-                  <input type="radio" id="slide1" name="slide" checked>
-                  <label for="slide1"></label>
-                  <img src="imagem/corte.jpg" />
-            </li>
-            <li>
-                  <input type="radio" id="slide2" name="slide">
-                  <label for="slide2"></label>
-                  <img src="imagem/interno.jpg" />
-            </li>
-            <li>
-                  <input type="radio" id="slide3" name="slide">
-                  <label for="slide3"></label>
-                  <img src="imagem/churras.jpg" />
-            </li>
-        </ul>
-        
+        <table>
+            <tr>
+                <td>
+                    <p align="left" >&nbsp;&nbsp;Fundado em 1978 por um grupo de amigos, o açougue Faca Cega consolidou-se no mercado oferecendo os melhores
+                        cortes de carne do mercado, prezando sempre o bom atendimento e excelente custo benefício.</p>
+                    <p align="left">&nbsp;&nbsp;Sediada atualmente no bairro do Limoeiro, nossa missão é fornecer aos nossos clientes carnes com qualidade 
+                        diferenciada, proporcionando a todos momentos inesquecíveis à mesa.</p>
+                </td>
+                <td>
+                    <ul class="slider">
+                        <li>
+                              <input type="radio" id="slide1" name="slide" checked>
+                              <label for="slide1"></label>
+                              <img src="imagem/corte.jpg" />
+                        </li>
+                        <li>
+                              <input type="radio" id="slide2" name="slide">
+                              <label for="slide2"></label>
+                              <img src="imagem/interno.jpg" />
+                        </li>
+                        <li>
+                              <input type="radio" id="slide3" name="slide">
+                              <label for="slide3"></label>
+                              <img src="imagem/churras.jpg" />
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>    
         <!-- Notícias -->
         
         <h2 align="center" class="text-danger" id="noticias">Notícias</h2>
@@ -109,10 +115,12 @@ and open the template in the editor.
         <p>O conteúdo da parte Contato vai aqui.</p>
         <p>O conteúdo da parte Contato vai aqui.</p>
         
+        
         <!-- Scripts necessários para o Bootstrap  - DEIXAR AQUI NO FINAL -->
         
         <script src="js/jquery-3.3.1.slim.js"></script>
         <script src= "js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        </div>
     </body>
 </html>
