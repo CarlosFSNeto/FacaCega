@@ -9019,7 +9019,7 @@ a.text-dark:hover, a.text-dark:focus {
 
     .slider li:nth-child(3) label {
          left: 70px;
-    } 
+    }
 .slider img {
      opacity: 0;
      visibility: hidden;
@@ -9029,5 +9029,5 @@ a.text-dark:hover, a.text-dark:focus {
      opacity: 1;
      visibility: visible;
      z-index: 10;
- } 
+ }
 /*# sourceMappingURL=bootstrap.css.map */
