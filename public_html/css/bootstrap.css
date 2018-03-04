@@ -9021,7 +9021,7 @@ a.text-dark:hover, a.text-dark:focus {
 
     .slider li:nth-child(3) label {
          left: 70px;
-    } 
+    }
 .slider img {
      opacity: 0;
      visibility: hidden;
@@ -9033,10 +9033,3 @@ a.text-dark:hover, a.text-dark:focus {
      z-index: 10;
  }
 
-.container{
-  background: LightCyan;
-  width: 100%;
-  height: 100%;
-  
-} 
-/*# sourceMappingURL=bootstrap.css.map */
