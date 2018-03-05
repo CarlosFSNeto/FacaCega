@@ -13,82 +13,90 @@ and open the template in the editor.
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
 
     </head>
-    <body class="bg-dark text-white">
+    <body class="bg-light">
 
         <!-- Menu (navbar Bootstrap) -->
+             
+            <nav class="navbar navbar-expand navbar-dark sticky-top bg-dark">
+                <a class="navbar-brand text-warning" href="#"><img src="imagem/facacega.jpg" alt="Faca Cega" width="30" height="30"/>Faca Cega</a>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-        <a class="navbar-brand text-danger" href="#"><img src="imagem/faca.jpg" alt="Faca Cega" width="30" height="30"/>Faca Cega</a>
+            <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>-->
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-
-            <li class="nav-item">
-              <a class="nav-link" href="#institucional">Institucional</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#noticias">Notícias</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#produtos">Produtos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contato">Contato</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#institucional">Institucional</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#noticias">Notícias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#produtos">Produtos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#contato">Contato</a>
+                </li>
+              </ul>
+            </div>
+            </nav>
+        
      <div class="container" align="center">
         <!-- Home -->
         <br/>
-        <h1 align="center" class="text-danger">Açougue Faca Cega</h1>
+        <h1 align="center" class="text-warning">Açougue Faca Cega</h1>
+        <h5>40 anos oferecendo as melhores carnes</h4>
         <br/><br/>
-        <p align="center"><img src="imagem/acougue.jpg" alt="Açougue Faca Cega"></p>
+        <p align="center"><img src="imagem/facacega.jpg" alt="Açougue Faca Cega" width="300"></p>
 
         <!-- Institucional -->
         <p id="institucional"></p><br/><br/><br/>
-        <h2 align="center" class="text-danger">Institucional</h2>
+        <h2 align="center" class="text-warning">Institucional</h2>
 
-        <p align="left">&nbsp;&nbsp;Fundado em 1978 por um grupo de amigos, o açougue Faca Cega consolidou-se no mercado oferecendo os melhores
-            cortes de carne do mercado, prezando sempre o bom atendimento e excelente custo benefício.</p>
-        <p align="left">&nbsp;&nbsp;Sediada atualmente no bairro do Limoeiro, nossa missão é fornecer aos nossos clientes carnes com qualidade
-            diferenciada, proporcionando a todos momentos inesquecíveis à mesa. </p>
-
-        <ul class="slider">
-            <li>
-                  <input type="radio" id="slide1" name="slide" checked>
-                  <label for="slide1"></label>
-                  <img src="imagem/corte.jpg" />
-            </li>
-            <li>
-                  <input type="radio" id="slide2" name="slide">
-                  <label for="slide2"></label>
-                  <img src="imagem/interno.jpg" />
-            </li>
-            <li>
-                  <input type="radio" id="slide3" name="slide">
-                  <label for="slide3"></label>
-                  <img src="imagem/churras.jpg" />
-            </li>
-        </ul>
+        <table>
+            <tr>
+                <td>
+                    <p align="left" >&nbsp;&nbsp;Fundado em 1978 por um grupo de amigos, o açougue Faca Cega consolidou-se no mercado oferecendo os melhores
+                        cortes de carne do mercado, prezando sempre o bom atendimento e excelente custo benefício.</p>
+                    <p align="left">&nbsp;&nbsp;Sediada atualmente no bairro do Limoeiro, nossa missão é fornecer aos nossos clientes carnes com qualidade 
+                        diferenciada, proporcionando a todos momentos inesquecíveis à mesa.</p>
+                </td>
+                <td>
+                    <ul class="slider">
+                        <li>
+                              <input type="radio" id="slide1" name="slide" checked>
+                              <label for="slide1"></label>
+                              <img src="imagem/corte.jpg" />
+                        </li>
+                        <li>
+                             <input type="radio" id="slide2" name="slide">
+                              <label for="slide2"></label>
+                              <img src="imagem/interno.jpg" />
+                        </li>
+                        <li>
+                              <input type="radio" id="slide3" name="slide">
+                              <label for="slide3"></label>
+                              <img src="imagem/churras.jpg" />
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>    
 
         <!-- Notícias -->
 
 
         <p id="noticias"></p><br/><br/>
-        <h2 align="center" class="text-danger">Notícias</h2><br><br>
+        <h2 align="center" class="text-warning">Notícias</h2><br><br>
         <section class="000f">
            <div class="container">
              <div class="row">
                    <div class="col-xs-122 col-sm-22 col-md-6 col-lg-6">
                        <h3>Açougues se transformam em boutiques na tentativa de atingir clientela</h3><hr>
                        <p align="justify">
-                         Num ramo cada mais concorrido com o crecimento das grandes redes de hipermercados, os açougues
+                         Num ramo cada mais concorrido com o crescimento das grandes redes de hipermercados, os açougues
                         investem em estrutura e melhor atendimento para poder ganhar novos clientes.
                         Tendo expectativa nesse movimento nós temos como novidade em unir serviços e dar conforto aos
                         nossos clientes o açougue FACA CEGA inova mantendo a tradição na qualidade e no bom preço, estamos
@@ -109,8 +117,8 @@ and open the template in the editor.
 
         <!-- Produtos -->
 
-        <p id="produtos"></p><br/><br/><br/>
-        <h2 align="center" class="text-danger">Produtos</h2>
+        <p id="produtos"></p><br/><br/>
+        <h2 align="center" class="text-warning">Produtos</h2>
             <h4>Diversos cortes de carne bovina, entre eles:</h4><br>
 
                 <table style="width:40%">
@@ -138,7 +146,7 @@ and open the template in the editor.
         <!-- Contato -->
 
         <p id="contato"></p>
-        <h2 align="center" class="text-danger">Contato</h2>
+        <h2 align="center" class="text-warning">Contato</h2>
         <br>
         <form name="contato_form">
                <p align="center">
@@ -163,7 +171,7 @@ and open the template in the editor.
         <br>
 
         <!-- Ródapé -->
-        <footer class="text-danger">
+        <footer class="text-warning">
           <p align="center">
             Site desenvolvido pelos alunos da Fatec PG - Projeto 01 Disciplina de POO - Prof° Ricardo Pupo<br>
             Direitos reservados @2018 AntonyCarlosIvanCordeiro
